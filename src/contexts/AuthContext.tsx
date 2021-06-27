@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useState, useEffect } from 'react';
 
 import { auth, firebase } from '../services/firebase';
+
 type User = {
   id: string;
   name: string;
